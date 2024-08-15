@@ -4,20 +4,20 @@
 \alias{compileWorkbook}
 \title{Compile an Excel Workbook}
 \usage{
-compileWorkbook(dataList, sheetLab, save, name, path)
+compileWorkbook(dataList, sheetLab, save = FALSE, name = NULL, path = NULL)
 }
 \arguments{
 \item{dataList}{List of dataframes to export to an Excel workbook. Each dataframe is
 exported as its own sheet.}
 
 \item{sheetLab}{Character vector to be used as worksheet labels. Length must be that
-of dataList}
+of dataList.}
 
 \item{save}{TRUE/FALSE: Should the Excel workbook be saved?}
 
-\item{name}{Name to be used for the Excel workbook}
+\item{name}{Name to be used for the Excel workbook.}
 
-\item{path}{Save directory where the workbook will be saved if save == TRUE}
+\item{path}{Save directory where the workbook will be saved if save == TRUE.}
 }
 \description{
 Compile DataFrames into an Excel Workbook
