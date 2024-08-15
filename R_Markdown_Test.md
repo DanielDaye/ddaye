@@ -1,30 +1,19 @@
----
-title: "R Markdown Test"
-author: "Daniel Daye"
-date: "2024-08-15"
-output: 
-  html_document:
-    keep_md: true
----
-
+R Markdown Test
+================
+Daniel Daye
+2024-08-15
 
 ``` r
 library(ggplot2)
 ```
 
-```
-## Warning: package 'ggplot2' was built under R version 4.2.3
-```
-
+    ## Warning: package 'ggplot2' was built under R version 4.2.3
 
 ``` r
 print("This is a test of print()")
 ```
 
-```
-## [1] "This is a test of print()"
-```
-
+    ## [1] "This is a test of print()"
 
 ``` r
 data <- data.frame(x = rnorm(50, 3, 23))
@@ -37,8 +26,6 @@ ggplot(data, aes(x,y)) +
   theme_bw()
 ```
 
-```
-## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
-```
+    ## `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
-![](R_Markdown_Test_files/figure-html/plot-1.png)<!-- -->
+![](R_Markdown_Test_files/figure-gfm/plot-1.png)<!-- -->
