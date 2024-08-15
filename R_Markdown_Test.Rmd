@@ -2,7 +2,7 @@
 title: "R Markdown Test"
 author: "Daniel Daye"
 date: "`r Sys.Date()`"
-output:
+output: 
   html_document:
     keep_md: true
 ---

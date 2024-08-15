@@ -2,7 +2,7 @@
 title: "R Markdown Test"
 author: "Daniel Daye"
 date: "2024-08-15"
-output:
+output: 
   html_document:
     keep_md: true
 ---
