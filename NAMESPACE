@@ -2,6 +2,10 @@
 
 export(compileWorkbook)
 export(helloThere)
+export(theme_daye)
+importFrom(ggplot2,'%+replace%')
+importFrom(ggplot2,theme)
+importFrom(ggplot2,theme_grey)
 importFrom(openxlsx,addWorksheet)
 importFrom(openxlsx,createWorkbook)
 importFrom(openxlsx,saveWorkbook)

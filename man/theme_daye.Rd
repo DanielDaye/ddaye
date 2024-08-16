@@ -4,11 +4,21 @@
 \alias{theme_daye}
 \title{Daye Theme}
 \usage{
-theme_daye()
+theme_daye(bs = 11, bf = "", bls = bs/22, brs = bs/22)
+}
+\arguments{
+\item{bs}{base_size}
+
+\item{bf}{base_family}
+
+\item{bls}{base_line_size}
+
+\item{brs}{base_rect_size}
 }
 \description{
-Custom notebook-styled ggplot theme
+Custom notebook-styled theme for ggplot
 }
 \details{
-Custom ggplot theme to standardize plot aesthetics in the style of notebook paper
+Applies a simplistic theme to ggplot objects to mimic notebook paper.
+Arguments are passed directly to theme_gray but text is scaled up by 1.25
 }
